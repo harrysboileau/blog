@@ -21,7 +21,7 @@ end
 
 post '/create_post' do 
  Post.create(title: params[:title], body: params[:body])
- redirect to '/'
+ redirect to '/#{@post.id}'
 end
 
 post '/edit_post' do 
