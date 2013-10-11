@@ -1,0 +1,33 @@
+<div class="container">
+
+  <h2><%= @post.title %></h2>
+
+
+ <form action="/edit_post" method="POST" id="post_body_input_field" >
+      <label>post title<input type="text" id="post_title_input_field" name="title" value="<%= @post.try(:title) %>"> </label>
+      <input type="hidden" value="<%=@post.id %>" name="hidden_post_id">
+      <br>
+      <br>
+      <textarea form="post_body_input_field" rows="10" cols="50" name="body">
+        <%= @post.try(:body) %>
+      </textarea>
+      <input type="submit">
+
+    </form>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

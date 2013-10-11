@@ -1,0 +1,27 @@
+<div class="container">
+
+
+  <h2><%= @post.title %></h2>
+
+  <p><%=  @post.body            %> </p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p><a href="/edit_single_post/<%= @post.id %>">edit post</a></p>
+  <br>
+  <p><form action="/delete_single_post/<%= @post.id %>" method="POST" value="delete_post">
+    <input type="submit" value="delete_post">
+
+</form>
+</p>
+</div>
+
+
+
+
+
+
+
+
+
