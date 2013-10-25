@@ -1,11 +1,12 @@
 .container {
   margin: 20px auto;
-  width: 600px;
+  width: 1000px;
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
   color: #333333;
   /*font-family: 'Quicksand', sans-serif;*/
-  font-family: 'Nixie One', cursive;
+  font-family: 'Lato', Helvetica, sans-serif;
+  /*font-family: 'Nixie One', cursive;*/
 
 }
 th {
