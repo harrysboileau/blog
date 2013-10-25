@@ -2,9 +2,9 @@
 <body>
 <div class="container">
   <h2>the future is endless</h2>
-  <h3>come a long for the ride friend<a href="/create_post"> create a post</a></h3>
+  <h3 class="page_title">come along for the ride friend & <a href="/create_post"> create a post</a>!</h3>
 
-  <ul>
+  <ul class="post_list">
     <% @posts.each do |post| %>
 
     <li><a href="/<%= post.id%>" > <%= post.title %> </a> </li>
