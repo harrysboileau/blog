@@ -1,5 +1,5 @@
-# this will contain all Post related route
 
+#GET -------------------------------------------------
 
 get '/create_post' do
 
@@ -35,6 +35,14 @@ post '/delete_single_post/:post_id' do
   @post.destroy
    redirect to '/'
 end
+
+
+
+
+
+
+
+
 
 
 
